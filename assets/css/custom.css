@@ -1,0 +1,189 @@
+/*@font-face{
+  font-family: "Riccione-Serial-Medium";
+  src: "fonts/Riccione-Serial-Medium.ttf";
+}*/
+
+
+
+body {
+	font-size: 16px;
+
+}
+
+h4{
+	font-weight: 500;
+    color: black;
+}
+
+ul, ol{
+  padding-left: 1.2em;
+  list-style: square;
+}
+
+
+p{
+	margin-bottom: 8px;
+    color: black;
+}
+
+figcaption{
+    color: dimgray;
+}
+
+.center {text-align: center; list-style-position:inside;}
+
+
+.wrapper{
+	padding: 0;
+	margin: 0;
+}
+
+.link{
+	color: #0c5dff;
+	font-weight: 600;
+}
+
+
+.pager li > a:hover{
+  text-decoration: none;
+  background-color: white;
+}
+
+
+
+.body-text{
+	font-color: red !important;
+}
+
+.scroll-up a{
+	border: 1px solid gray;
+}
+
+.title1{
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.subtitle{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.title2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 32px;
+}
+
+.title3{
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: capitalize;
+
+}
+
+.title4{
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+a{
+    text-transform: uppercase;
+}
+
+.right-arrow:before {
+    content:'\2192';
+}
+
+.white{
+    color: white;
+}
+
+/*
+.white: hover{
+    color: #FF6347;
+
+}
+*/
+
+.bkbg{
+    background-color: black;
+}
+
+.hometitle{
+    display: inline;
+    text-align: center;
+}
+
+.titlediv{
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    h2{
+        font-size: 24px!important;
+    }
+
+}
+
+/* image grid*/
+@media (min-width: 600px){
+	main{
+		margin-left:15%;
+		margin-right:15%;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+	.figure1{
+		grid-column: span 2;
+		grid-row: span 2;
+	}
+
+	.figure2{
+		grid-column: span 2;
+		grid-row: span 2;
+	}
+
+	.figure3{
+		grid-column: span 2;
+		grid-row: span 2;
+	}
+
+	.figure4{
+		grid-column: span 2;
+		grid-row: span 2;
+	}
+
+	.figure5{
+		grid-column: span 2;
+		grid-row: span 1;
+	}
+
+	.figure6{
+		grid-column: span 1;
+		grid-row: span 1;
+	}
+
+	.figure7{
+		grid-column: span 1;
+		grid-row: span 2;
+	}
+
+	.figure8{
+		grid-column: span 4;
+	}
+
+	.figure-img{
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
